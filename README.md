@@ -1,6 +1,6 @@
 # Gym Management System
 
-![Gym Management System Screenshot](images/screenshot.png)
+![Gym Management System Screenshot](Gym_management_screenshots/Admin_Login.png)
 
 Welcome to the Gym Management System! This application helps you manage gym operations, including employees, trainers, trainees, and customer payments.
 
@@ -30,7 +30,6 @@ The Gym Management System is a comprehensive tool designed to streamline the man
 
 - **Programming Language**: Java
 - **Database**: MySQL (or any other database you used)
-- **Framework**: Spring Boot (if applicable)
 - **IDE**: IntelliJ IDEA, Eclipse (or any other IDE you used)
 
 ## Getting Started
@@ -48,13 +47,13 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/your-repository-name.git
+    git clone https://github.com/st-miki/Gym_Management_System.git
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd your-repository-name
+    cd Gym_Management_System
     ```
 
 3. Set up the database:
@@ -80,8 +79,8 @@ Update the `application.properties` file with your database configuration:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
-spring.datasource.username=your-username
-spring.datasource.password=your-password
+spring.datasource.username=Admin
+spring.datasource.password=1234
 spring.jpa.hibernate.ddl-auto=update
 ```
 
@@ -91,20 +90,25 @@ Once the application is running, you can access it via your web browser or the s
 ### Screenshots
 Here are some screenshots of the Gym Management System:
 
-Dashboard
-
-Employee Management
-
-Trainer Management
-
-Trainee Management
-
-Payment Management
+### Dashboard<br>
+![Gym Management System Screenshot](Gym_management_screenshots/Dashboard.png)<br>
+### Register Branch
+![Gym Management System Screenshot](Gym_management_screenshots/Register_Branch.png)<br>
+### Register Client
+![Gym Management System Screenshot](Gym_management_screenshots/Register_Client.png)<br>
+### Update Client
+![Gym Management System Screenshot](Gym_management_screenshots/Update_Client.png)<br>
+### View Department
+![Gym Management System Screenshot](Gym_management_screenshots/View_Department.png)<br>
+### View Employee
+![Gym Management System Screenshot](Gym_management_screenshots/View_Employee.png)<br>
+### View Program
+![Gym Management System Screenshot](Gym_management_screenshots/View_Program.png)<br>
 
 ### Contact
 Feel free to reach out if you have any questions or suggestions!
 
 Email: mikiengida52@gmail.com<br>
-Twitter: st_mickey_<br>
+Twitter: @st_mickey_<br>
 License
 Distributed under the MIT License. See LICENSE for more information.
